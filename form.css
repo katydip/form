@@ -1,0 +1,83 @@
+
+
+body {
+  background-color: black;
+}
+
+
+form {
+  display: flex;
+  border: 10px solid lightgray;
+  background-color: white;
+  margin: 200px 75px;
+  font-family: verdana;
+  color: gray;
+  font-weight: bold;
+  font-size: 12px;
+  flex-wrap: wrap;
+
+}
+input {
+  border: 0px;
+  padding-top: 20px;
+
+}
+
+
+#name, #company {
+  display: flex;
+  border: 1px solid lightgray;
+  flex-direction: column;
+  flex-grow: 1;
+  /*padding: 20px;*/
+  width: 46%;
+  justify-content: space-around;
+  padding: 15px;
+
+}
+
+#phone, #email, #availability {
+  display: flex;
+  border: 1px solid lightgray;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 15px;
+  width: 29%;
+
+}
+#availability {
+  justify-content: space-between;
+}
+#skills, #experience, #color, #language {
+  display: flex;
+  border: 1px solid lightgray;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 15px;
+  width: 21%;
+
+}
+
+
+
+input[type=submit] {
+    display: flex;
+    width: 25%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 38%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    justify-content: center;
+    align-self: center;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+input[type=placeholder] {
+  width: 100%;
+}
